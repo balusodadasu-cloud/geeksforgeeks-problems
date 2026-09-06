@@ -1,0 +1,9 @@
+class Solution {
+    String modify(String s) {
+        if(Character.isUpperCase(s.charAt(0)))
+        {
+            return s.toUpperCase();
+        }
+        return s.toLowerCase();
+    }
+}
